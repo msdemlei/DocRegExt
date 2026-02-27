@@ -126,7 +126,7 @@
     <xs:complexContent>
       <xs:extension base="vr:Interface">
         <xs:sequence>
-          <xs:element name="resultType" type="xs:string"
+          <xs:element name="resultType" type="xs:token"
           		minOccurs="0" maxOccurs="unbounded">
             <xs:annotation>
               <xs:documentation>
